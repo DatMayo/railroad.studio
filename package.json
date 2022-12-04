@@ -1,19 +1,21 @@
 {
-    "scripts": {
-        "build": "webpack --mode=development",
-        "watch": "webpack --mode=development --watch",
-        "build:prod": "webpack --mode=production",
-        "sync": "aws s3 sync railroad.studio s3://railroad.studio"
-    },
-    "devDependencies": {
-        "@svgdotjs/svg.js": "^3.1.2",
-        "@typescript-eslint/eslint-plugin": "^5.16.0",
-        "eslint": "^8.12.0",
-        "eslint-config-google": "^0.14.0",
-        "eslint-webpack-plugin": "^3.1.1",
-        "svg-pan-zoom": "^3.6.1",
-        "ts-loader": "^9.2.8",
-        "typescript": "^4.6.2",
-        "webpack-cli": "^4.9.2"
-    }
+  "name": "new",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.3"
+  }
 }
